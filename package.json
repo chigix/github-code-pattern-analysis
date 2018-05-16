@@ -1,0 +1,40 @@
+{
+  "name": "github-code-pattern-analysis",
+  "version": "1.0.0",
+  "description": "Code Pattern Analysis for Public Github Repositories",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "jest",
+    "start": "./node_modules/.bin/ts-node src/main.ts",
+    "build": "./node_modules/.bin/tsc -p ./tsconfig.json",
+    "start_process": "./node_modules/.bin/tsc -p ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chigix/github-code-pattern-analysis.git"
+  },
+  "keywords": [
+    "Code",
+    "Pattern",
+    "Github",
+    "Repositories"
+  ],
+  "author": "Richard Lea <chigix@zoho.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chigix/github-code-pattern-analysis/issues"
+  },
+  "homepage": "https://github.com/chigix/github-code-pattern-analysis#readme",
+  "devDependencies": {
+    "@types/node": "^8.9.4",
+    "@types/request-promise-native": "^1.0.14",
+    "ts-node": "^6.0.3",
+    "tslint": "^5.10.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "request": "^2.86.0",
+    "request-promise-native": "^1.0.5",
+    "rxjs": "^6.1.0"
+  }
+}
